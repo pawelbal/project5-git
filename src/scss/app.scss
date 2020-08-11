@@ -18,6 +18,8 @@
 /* Vendor */
 
 /* Components */
+@import 'base/header';
+@import 'base/steps';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
@@ -43,7 +45,7 @@ body, html{
   max-width: 1184px;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 32px;
+  padding: 32px;
   min-height: 10px;
   overflow: hidden;
 
